@@ -32,25 +32,19 @@ export default function Navbar() {
                     : "py-5"
             )}>
             <div className="container flex items-center justify-between">
-                <a
+                <HashLink
                     className="text-xl font-bold text-primary flex items-center"
-                    href="#hero">
+                    to="#hero">
                     <span className="relative z-10">
                         <span className="text-glow text-foreground">
                             Aliraza's Portfolio
                         </span>
                     </span>
-                </a>
+                </HashLink>
 
                 {/* desktop navbar */}
                 <div className="hidden md:flex space-x-8">
                     {navItems.map((item, key) => (
-                        // <a
-                        //     key={key}
-                        //     href={item.href}
-                        //     className="text-foreground/80 hover:text-primary transition-colors duration-300">
-                        //     {item.name}
-                        // </a>
                         <HashLink
                             key={key}
                             smooth
@@ -80,13 +74,13 @@ export default function Navbar() {
                     )}>
                     <div className="flex flex-col space-y-8">
                         {navItems.map((item, key) => (
-                            <a
+                            <HashLink
                                 key={key}
-                                href={item.href}
-                                className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                                onClick={() => setIsMenuOpen(false)}>
+                                to={item.href}
+                                onClick={() => setIsMenuOpen(false)}
+                                className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                 {item.name}
-                            </a>
+                            </HashLink>
                         ))}
                     </div>
                 </div>
