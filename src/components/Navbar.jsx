@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { HashLink } from "react-router-hash-link";
 
 const navItems = [
     { name: "Home", href: "#hero" },
@@ -44,12 +45,19 @@ export default function Navbar() {
                 {/* desktop navbar */}
                 <div className="hidden md:flex space-x-8">
                     {navItems.map((item, key) => (
-                        <a
+                        // <a
+                        //     key={key}
+                        //     href={item.href}
+                        //     className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                        //     {item.name}
+                        // </a>
+                        <HashLink
                             key={key}
-                            href={item.href}
+                            smooth
+                            to={item.href}
                             className="text-foreground/80 hover:text-primary transition-colors duration-300">
-                            {item.name}
-                        </a>
+                            {item.name}{" "}
+                        </HashLink>
                     ))}
                 </div>
 
