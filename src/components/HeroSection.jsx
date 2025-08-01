@@ -30,7 +30,7 @@ export default function HeroSection() {
                             View my Work
                         </a>
                         <a
-                            href="/Resume/Aliraza_new_resume.pdf"
+                            href="Resume/Aliraza_new_resume.pdf"
                             target="_blank"
                             className="ml-5 px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                             Download CV
