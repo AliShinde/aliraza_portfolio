@@ -6,7 +6,7 @@ const projectList = [
         title: "YelpCamp",
         description:
             "Full Stack website using MERN stack with passportJS for user authentication",
-        image: "/projects/YelpCamp_HomePage.png",
+        image: "https://res.cloudinary.com/dqksibfze/image/upload/v1754035542/YelpCamp_HomePage_ncqb04.png",
         tags: ["Javascript", "Express", "MongoDB", "Bootstrap", "EJS"],
         demoUrl: "https://yelpcamp-y20x.onrender.com/",
         githubUrl: "https://github.com/AliShinde/YelpCamp",
@@ -16,7 +16,7 @@ const projectList = [
         title: "Cloud File Upload",
         description:
             "A backend module built with Nestjs and connects directly to Cloudinary! ",
-        image: "/projects/File_upload_nestjs.png",
+        image: "https://res.cloudinary.com/dqksibfze/image/upload/v1754035538/File_upload_nestjs_emxnhi.png",
         tags: ["Typescript", "Nestjs", "Postgres", "Prisma"],
         demoUrl: "https://github.com/AliShinde/File-Upload-Nestjs",
         githubUrl: "https://github.com/AliShinde/File-Upload-Nestjs",
@@ -26,7 +26,7 @@ const projectList = [
         title: "Rate Limiter using Redis",
         description:
             "A backend module to implement specified number of hits on an API",
-        image: "/projects/RateLimiter_Redis.png",
+        image: "https://res.cloudinary.com/dqksibfze/image/upload/v1754035538/RateLimiter_Redis_il3eph.png",
         tags: ["Typescript", "Redis", "Postgres", "Prisma"],
         demoUrl: "https://github.com/AliShinde/RateLimiter-Redis-Nestjs",
         githubUrl: "https://github.com/AliShinde/RateLimiter-Redis-Nestjs",
@@ -36,7 +36,7 @@ const projectList = [
         title: "GNN Summarizer",
         description:
             "A Graph Neural Network that uses knowledge graphs to summarize text",
-        image: "/projects/GNNProject.png",
+        image: "https://res.cloudinary.com/dqksibfze/image/upload/v1754035538/GNNProject_ow4c1r.png",
         tags: ["Python", "pytorch", "pytorch.geometric", "Info Retreival"],
         demoUrl: "https://github.com/AliShinde/GNN_Legal_Summarizer",
         githubUrl: "https://github.com/AliShinde/GNN_Legal_Summarizer",

@@ -13,7 +13,7 @@ export default function AboutMe() {
                     <div className="flex flex-col items-center text-center w-full">
                         <img
                             className="p-6"
-                            src="/src/assets/infosys.svg"
+                            src="https://res.cloudinary.com/dqksibfze/image/upload/v1754035688/infosys_vvyjot.svg"
                             alt="Company Logo"
                         />
                         <h3 className="text-primary text-2xl font-bold">
