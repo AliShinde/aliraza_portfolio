@@ -10,9 +10,13 @@ export default function ThemeButton() {
         if (storedTheme === "dark") {
             setIsDark(true);
             document.documentElement.classList.add("dark");
-        } else {
+        } else if (storedTheme === "light") {
             setIsDark(false);
-            localStorage.setItem("theme", "light");
+            document.documentElement.classList.remove("dark");
+        } else {
+            setIsDark(true);
+            document.documentElement.classList.add("dark");
+            localStorage.setItem("theme", "dark");
         }
     }, []);
 

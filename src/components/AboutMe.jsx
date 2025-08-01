@@ -16,7 +16,7 @@ export default function AboutMe() {
                             src="https://res.cloudinary.com/dqksibfze/image/upload/v1754035688/infosys_vvyjot.svg"
                             alt="Company Logo"
                         />
-                        <h3 className="text-primary text-2xl font-bold">
+                        <h3 className="text-sky-400 text-2xl font-bold">
                             Systems Engineer (Backend)
                         </h3>
                         <p className="font-semibold text-glow text-foreground">
@@ -32,10 +32,6 @@ export default function AboutMe() {
                                 a single call.
                             </li>
                             <li className="mb-2">
-                                {/* Maintained a structured documentation system
-                                using JSDoc and Swagger for backend services,
-                                enhancing team productivity and reducing
-                                onboarding time by 40%. */}
                                 Reduced onboarding time by 40% by maintaining
                                 structured documentation using Swagger.
                             </li>
